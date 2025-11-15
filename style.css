@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.img-1{
+    background: black;
+    border-radius: 15px 15px 15px 15px;
+    width: 500px;
+    height: 470px;
+    color: white;
+    padding: 10px;
+    font-family:'Unbounded';
+
+    &:hover{
+        color: #567247;
+        cursor: pointer;
+        
+        h3{
+            color: #e8c466;
+        }
+    }
+    
+}
+
+.img-2{
+    background: black;
+    border-radius: 15px 15px 15px 15px;
+    width: 500px;
+    height: 470px;
+    color: white;
+    padding: 10px;
+    font-family:'Unbounded';
+
+    &:hover{
+        color: #749ccd;
+        cursor: pointer;
+        h3{
+            color: #eac27c;
+        }
+    }
+    
+}
+
+.img-3{
+    background: black;
+    border-radius: 15px 15px 15px 15px;
+    width: 500px;
+    height: 470px;
+    color: white;
+    padding: 10px;
+    font-family:'Unbounded';
+
+    &:hover{
+        color: #627d74;
+        cursor: pointer;
+        h3{
+            color: #665a30;
+        }
+    }
+    
+}
+.img-4{
+    background: black;
+    border-radius: 15px 15px 15px 15px;
+    width: 500px;
+    height: 470px;
+    color: white;
+    padding: 10px;
+    font-family:'Unbounded';
+  
+    &:hover{
+        color: #3c5558;
+        cursor: pointer;
+        h3{
+            color: #d86b0b;
+        }
+    }
+    
+}
+
+.img-5{
+    background: black;
+    border-radius: 15px 15px 15px 15px;
+    width: 500px;
+    height: 470px;
+    color: white;
+    padding: 10px;
+    font-family:'Unbounded';
+  
+    &:hover{
+        color: #294a80;
+        cursor: pointer;
+        h3{
+            color: #c0a62d;
+        }
+    }
+    
+}
+
+.img-6{
+    background: black;
+    border-radius: 15px 15px 15px 15px;
+    width: 500px;
+    height: 470px;
+    color: white;
+    padding: 10px;
+    font-family:'Unbounded';
+  
+    &:hover{
+        color: #909599;
+        cursor: pointer;
+        h3{
+            color: #4d657f;
+        }
+    }
+    
+}
+
+.gallery-img{
+
+ border-radius: 15px 15px 15px 15px;
+
+
+}
+
+
+.gallery_header{
+    display: flex;
+    gap: 10px;
+    max-width: 10000px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items:center ;
+    justify-content: center;
+}
+
+#app{
+    padding: 10px;
+    
+}
